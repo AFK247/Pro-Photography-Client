@@ -55,7 +55,6 @@ const Login = () => {
             .finally(() => {
                 setLoading(false);
             })
-            
     }
 
     return (
@@ -86,7 +85,7 @@ const Login = () => {
                                         <div className='d-flex justify-content-center mb-4'>
                                             <Link onClick={handleGoogle} className="btn btn-outline-info me-4 px-4" to="">Google</Link>
                                         </div>
-                                        <p className="small pb-lg-2">Didn't Registered? Go to <Link className="text-white-50" to="/register">Register Page</Link></p>
+                                        <p className="small pb-lg-2">Didn't Registered? Go to <Link className="fs-4" to="/register">Register Page</Link></p>
 
                                     </form>
 
